@@ -1,5 +1,9 @@
 
-# Name of problem: Python If-Else
+# ----------------------------------------------------------------------------------
+# Name of The Problem:
+# ----------------------------------------------------------------------------------
+# Python If-Else
+# ----------------------------------------------------------------------------------
 #
 # Created: Nov 9, 2019
 #
@@ -27,6 +31,7 @@ def weird_or_not(n):
     '''
     Check if a number is Weird or Not Weird
     '''
+    # Check for valid constrains
     if n < 1 or n > 100:
         # print('Invalid input!')
         pass

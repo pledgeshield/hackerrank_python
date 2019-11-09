@@ -1,6 +1,4 @@
 
-# oops
-
 # Name of problem: Python If-Else
 #
 # Created: Nov 9, 2019
@@ -26,7 +24,9 @@ CONSTRAINS: 1 <= n <= 100
 
 # All odd numbers are weird
 def weird_or_not(n):
-
+    '''
+    Check if a number is Weird or Not Weird
+    '''
     if n < 1 or n > 100:
         # print('Invalid input!')
         pass
@@ -36,5 +36,6 @@ def weird_or_not(n):
         print(f'{n:2} Not Weird')
 
 
+# Test input from 1 to 30
 for x in range(31):
     weird_or_not(x)

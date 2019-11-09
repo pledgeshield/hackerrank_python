@@ -33,14 +33,13 @@ def weird_or_not(n):
     '''
     # Check for valid constrains
     if n < 1 or n > 100:
-        # print('Invalid input!')
-        pass
+        print(f'Invalid input: {n}')
     elif not n % 2 == 0 or n in range(6, 21):
         print(f'{n:2} Weird')
     else:
         print(f'{n:2} Not Weird')
 
 
-# Test input from 1 to 30
-for x in range(31):
+# Test input from -1 to 30
+for x in range(-1, 31):
     weird_or_not(x)

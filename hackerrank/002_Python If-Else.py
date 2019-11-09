@@ -5,7 +5,7 @@
 #
 # Revision #N/A / Date: N/A
 #
-# Link: 
+# Source:
 # https://www.hackerrank.com/challenges/py-if-else/problem
 
 
@@ -34,7 +34,5 @@ def weird_or_not(n):
         print(f'{n:2} Not Weird')
 
 
-        
-#
 for x in range(31):
     weird_or_not(x)

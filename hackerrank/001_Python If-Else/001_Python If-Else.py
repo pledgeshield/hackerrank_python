@@ -27,12 +27,13 @@ CONSTRAINS: 1 <= n <= 100
 
 
 # All odd numbers are weird
+# All even numbers between 6 to 20 inclusive, are also weird
 def weird_or_not(n):
     '''
     Check if a number is Weird or Not Weird
     '''
     # Check for valid constrains
-    if n < 1 or n > 100:
+    if n < 1 or n > 99:
         print(f'Invalid input: {n}')
     elif not n % 2 == 0 or n in range(6, 21):
         print(f'{n:2} Weird')
@@ -40,6 +41,6 @@ def weird_or_not(n):
         print(f'{n:2} Not Weird')
 
 
-# Test input from -1 to 30
-for x in range(-1, 31):
+# Test input from -1 to 110
+for x in range(-1, 110):
     weird_or_not(x)

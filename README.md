@@ -1,3 +1,5 @@
 # python_solutions
 
-A repository, to keep track of solved problems in Python and revisit them.
+A repository, to keep track of solved problems in Python. These problems originate
+from different sources. They appear interesting to me, thus I am putting them in
+these collections, so I be able to revisit and revise them in time.

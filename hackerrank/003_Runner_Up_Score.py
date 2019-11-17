@@ -30,17 +30,6 @@ OUTPUT: Print the runner-up score.
 # My implementation
 # ----------------------------------------------------------------------------------
 def runner_up_score(n, lst):
-    '''
-        DOCSTRING!
-
-        INPUT:
-            n (str)
-            lst (str)
-
-        OUTPUT:
-            None
-    '''
-
     n = int(n)
     lst = [int(x) for x in lst.split(' ')]
 

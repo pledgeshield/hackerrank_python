@@ -14,14 +14,14 @@
 
 
 '''
-TASK:
-Read an integer N. For all non-negative integers i < N, print i^2
+    TASK:
+    Read an integer N. For all non-negative integers i < N, print i^2
 
-INPUT: positive integer N
+    INPUT: positive integer N
 
-CONSTRAINS: 1 <= N <= 20
+    CONSTRAINS: 1 <= N <= 20
 
-OUTPUT: Print N lines, one corresponding to each i.
+    OUTPUT: Print N lines, one corresponding to each i.
 '''
 
 

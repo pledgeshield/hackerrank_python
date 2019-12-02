@@ -80,6 +80,11 @@ def solution_01():
 solution_01()
 
 
+# TODO: Write an algorithm which generates different lists(as below) for the above
+# problem. Write an additional algorithm, who keeps statistics about successful
+# attempt and errors, basically a log file.
+
+
 # Possible inputs
 '''
 5

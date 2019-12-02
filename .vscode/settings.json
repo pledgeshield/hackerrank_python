@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontSize": 24,
+    "editor.fontLigatures": true,
+    // Python
+    "python.pythonPath": "/home/shield/Leo/bin/python3.8",
+    "code-runner.executorMap": {
+        "python": "/home/shield/Leo/bin/python3.8 -u",
+    },
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+}
